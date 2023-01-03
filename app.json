@@ -5275,6 +5275,69 @@
         }
       },
       "settings": []
+    },
+    {
+      "id": "livarno_hanging_celing_light",
+      "name": {
+        "en": "Livarno hanging Light"
+      },
+      "class": "light",
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "images": {
+        "large": "/drivers/tunable_bulb_E27/assets/images/large.png",
+        "small": "/drivers/tunable_bulb_E27/assets/images/small.png"
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "_TZ3210_x13bu7za"
+        ],
+        "productId": [
+          "TS0505B"
+        ],
+        "energy": {
+          "approximation": {
+            "usageOn": 34,
+            "usageOff": 1
+          }
+        },
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              4096,
+              8,
+              768,
+              61184
+            ],
+            "bindings": [
+              6,
+              8,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/tunable_bulb_E27/assets/icon.svg",
+          "instruction": {
+            "en": "Power device to enter pairing mode"
+          }
+        }
+      },
+      "settings": []
     }
   ],
   "capabilities": {
